@@ -5,10 +5,21 @@
 
 > python model/collect_data.py
 
-And follow the instructions on the screen
+Show your hand gesture and press the corresponding key (follow the on-screen instructions) to save the recording. End data recording by pressing the ESC key. The records will be saved at model/keypoint_data.csv
 
 ## Training
 
-Run  model/model_training.ipynb for training model
+Run  **model/model_training.ipynb** for training model
 
-# A basic game of rock-paper-scissors using hand gestures. Base on Google's Mediapipe platform and shallow neural network
+## Evaluate
+
+> python model/real_time_predict.py
+
+Show your hand gesture and the system will display the result in the left corner of the screen
+
+# Play game
+
+> python game.py
+
+And follow the instructions on the screen
+

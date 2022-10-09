@@ -1,3 +1,4 @@
+## Navigate to Rock-Paper-Scissors directory
 > cd Rock-Paper-Scissors
 # Training model
 
